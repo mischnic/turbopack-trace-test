@@ -8,7 +8,7 @@ export function Client() {
   return (
     <>
       <div className="font-mono text-center w-full text-sm flex items-center">
-        Client {i}
+        Client State {i}
         <button
           className="bg-foreground text-background mx-2"
           onClick={() => setState((v) => v + 1)}
@@ -17,7 +17,7 @@ export function Client() {
         </button>
       </div>
       <div className="font-mono text-center w-full text-sm flex items-center">
-        Clicks from Redis {""}
+        Clicks from Redis via Server Action
         {clicks == null ? (
           <button
             className="bg-foreground text-background mx-2"
@@ -28,7 +28,7 @@ export function Client() {
             Get
           </button>
         ) : (
-          <span>{clicks}</span>
+          <span className="px-2">{clicks}</span>
         )}
       </div>
     </>
