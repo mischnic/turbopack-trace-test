@@ -12,14 +12,14 @@ importers:
         specifier: 1.3.8
         version: 1.3.8
       '@next/swc-linux-x64-gnu':
-        specifier: https://vercel-packages.vercel.app/next/commits/a1e14f6815e8c497b6248cc4871dc9098b1622ba/@next/swc-linux-x64-gnu
-        version: https://vercel-packages.vercel.app/next/commits/a1e14f6815e8c497b6248cc4871dc9098b1622ba/@next/swc-linux-x64-gnu
+        specifier: https://vercel-packages.vercel.app/next/commits/2b1ce0837ed1a077659b34a8d699f700e63c8c49/@next/swc-linux-x64-gnu
+        version: https://vercel-packages.vercel.app/next/commits/2b1ce0837ed1a077659b34a8d699f700e63c8c49/@next/swc-linux-x64-gnu
       keyv:
         specifier: ^3.1.0
         version: 3.1.0
       next:
-        specifier: https://vercel-packages.vercel.app/next/commits/a1e14f6815e8c497b6248cc4871dc9098b1622ba/next
-        version: https://vercel-packages.vercel.app/next/commits/a1e14f6815e8c497b6248cc4871dc9098b1622ba/next(react-dom@19.0.0-rc-cd22717c-20241013(react@19.0.0-rc-cd22717c-20241013))(react@19.0.0-rc-cd22717c-20241013)
+        specifier: https://vercel-packages.vercel.app/next/commits/2b1ce0837ed1a077659b34a8d699f700e63c8c49/next
+        version: https://vercel-packages.vercel.app/next/commits/2b1ce0837ed1a077659b34a8d699f700e63c8c49/next(react-dom@19.0.0-rc-cd22717c-20241013(react@19.0.0-rc-cd22717c-20241013))(react@19.0.0-rc-cd22717c-20241013)
       react:
         specifier: 19.0.0-rc-cd22717c-20241013
         version: 19.0.0-rc-cd22717c-20241013
@@ -191,13 +191,13 @@ packages:
   '@keyv/redis@1.3.8':
     resolution: {integrity: sha512-F0S7bEeRfX7nYW8SaX3B5CmLQJCY2VAhejRHIvpbqQC2v7PyR1R2YyUGPOhIFqv5r9mb1lV2gykEMEiMKioxhA==}
 
-  '@next/env@https://vercel-packages.vercel.app/next/commits/a1e14f6815e8c497b6248cc4871dc9098b1622ba/@next/env':
-    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/a1e14f6815e8c497b6248cc4871dc9098b1622ba/@next/env}
-    version: 15.0.0-preview-a1e14f68-20241018
+  '@next/env@https://vercel-packages.vercel.app/next/commits/2b1ce0837ed1a077659b34a8d699f700e63c8c49/@next/env':
+    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/2b1ce0837ed1a077659b34a8d699f700e63c8c49/@next/env}
+    version: 15.0.0-preview-2b1ce083-20241021
 
-  '@next/swc-linux-x64-gnu@https://vercel-packages.vercel.app/next/commits/a1e14f6815e8c497b6248cc4871dc9098b1622ba/@next/swc-linux-x64-gnu':
-    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/a1e14f6815e8c497b6248cc4871dc9098b1622ba/@next/swc-linux-x64-gnu}
-    version: 15.0.0-preview-a1e14f68-20241018
+  '@next/swc-linux-x64-gnu@https://vercel-packages.vercel.app/next/commits/2b1ce0837ed1a077659b34a8d699f700e63c8c49/@next/swc-linux-x64-gnu':
+    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/2b1ce0837ed1a077659b34a8d699f700e63c8c49/@next/swc-linux-x64-gnu}
+    version: 15.0.0-preview-2b1ce083-20241021
     engines: {node: '>= 10'}
     os: [linux]
 
@@ -471,17 +471,17 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
-  next@https://vercel-packages.vercel.app/next/commits/a1e14f6815e8c497b6248cc4871dc9098b1622ba/next:
-    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/a1e14f6815e8c497b6248cc4871dc9098b1622ba/next}
-    version: 15.0.0-preview-a1e14f68-20241018
+  next@https://vercel-packages.vercel.app/next/commits/2b1ce0837ed1a077659b34a8d699f700e63c8c49/next:
+    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/2b1ce0837ed1a077659b34a8d699f700e63c8c49/next}
+    version: 15.0.0-preview-2b1ce083-20241021
     engines: {node: '>=18.18.0'}
     hasBin: true
     peerDependencies:
       '@opentelemetry/api': ^1.1.0
       '@playwright/test': ^1.41.2
       babel-plugin-react-compiler: '*'
-      react: ^18.2.0 || 19.0.0-rc-bf7e210c-20241017
-      react-dom: ^18.2.0 || 19.0.0-rc-bf7e210c-20241017
+      react: ^18.2.0 || 19.0.0-rc-65a56d0e-20241020
+      react-dom: ^18.2.0 || 19.0.0-rc-65a56d0e-20241020
       sass: ^1.3.0
     peerDependenciesMeta:
       '@opentelemetry/api':
@@ -868,9 +868,9 @@ snapshots:
       pify: 3.0.0
       redis: 2.8.0
 
-  '@next/env@https://vercel-packages.vercel.app/next/commits/a1e14f6815e8c497b6248cc4871dc9098b1622ba/@next/env': {}
+  '@next/env@https://vercel-packages.vercel.app/next/commits/2b1ce0837ed1a077659b34a8d699f700e63c8c49/@next/env': {}
 
-  '@next/swc-linux-x64-gnu@https://vercel-packages.vercel.app/next/commits/a1e14f6815e8c497b6248cc4871dc9098b1622ba/@next/swc-linux-x64-gnu': {}
+  '@next/swc-linux-x64-gnu@https://vercel-packages.vercel.app/next/commits/2b1ce0837ed1a077659b34a8d699f700e63c8c49/@next/swc-linux-x64-gnu': {}
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
@@ -1125,9 +1125,9 @@ snapshots:
 
   nanoid@3.3.7: {}
 
-  next@https://vercel-packages.vercel.app/next/commits/a1e14f6815e8c497b6248cc4871dc9098b1622ba/next(react-dom@19.0.0-rc-cd22717c-20241013(react@19.0.0-rc-cd22717c-20241013))(react@19.0.0-rc-cd22717c-20241013):
+  next@https://vercel-packages.vercel.app/next/commits/2b1ce0837ed1a077659b34a8d699f700e63c8c49/next(react-dom@19.0.0-rc-cd22717c-20241013(react@19.0.0-rc-cd22717c-20241013))(react@19.0.0-rc-cd22717c-20241013):
     dependencies:
-      '@next/env': https://vercel-packages.vercel.app/next/commits/a1e14f6815e8c497b6248cc4871dc9098b1622ba/@next/env
+      '@next/env': https://vercel-packages.vercel.app/next/commits/2b1ce0837ed1a077659b34a8d699f700e63c8c49/@next/env
       '@swc/counter': 0.1.3
       '@swc/helpers': 0.5.13
       busboy: 1.6.0
@@ -1137,7 +1137,7 @@ snapshots:
       react-dom: 19.0.0-rc-cd22717c-20241013(react@19.0.0-rc-cd22717c-20241013)
       styled-jsx: 5.1.6(react@19.0.0-rc-cd22717c-20241013)
     optionalDependencies:
-      '@next/swc-linux-x64-gnu': https://vercel-packages.vercel.app/next/commits/a1e14f6815e8c497b6248cc4871dc9098b1622ba/@next/swc-linux-x64-gnu
+      '@next/swc-linux-x64-gnu': https://vercel-packages.vercel.app/next/commits/2b1ce0837ed1a077659b34a8d699f700e63c8c49/@next/swc-linux-x64-gnu
       sharp: 0.33.5
     transitivePeerDependencies:
       - '@babel/core'
