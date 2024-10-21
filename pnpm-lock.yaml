@@ -14,21 +14,24 @@ importers:
       '@next/swc-linux-x64-gnu':
         specifier: https://vercel-packages.vercel.app/next/commits/2b1ce0837ed1a077659b34a8d699f700e63c8c49/@next/swc-linux-x64-gnu
         version: https://vercel-packages.vercel.app/next/commits/2b1ce0837ed1a077659b34a8d699f700e63c8c49/@next/swc-linux-x64-gnu
+      '@node-rs/bcrypt':
+        specifier: ^1.10.5
+        version: 1.10.5
       keyv:
         specifier: ^3.1.0
         version: 3.1.0
       next:
         specifier: https://vercel-packages.vercel.app/next/commits/2b1ce0837ed1a077659b34a8d699f700e63c8c49/next
-        version: https://vercel-packages.vercel.app/next/commits/2b1ce0837ed1a077659b34a8d699f700e63c8c49/next(react-dom@19.0.0-rc-cd22717c-20241013(react@19.0.0-rc-cd22717c-20241013))(react@19.0.0-rc-cd22717c-20241013)
+        version: https://vercel-packages.vercel.app/next/commits/2b1ce0837ed1a077659b34a8d699f700e63c8c49/next(react-dom@19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020))(react@19.0.0-rc-65a56d0e-20241020)
       react:
-        specifier: 19.0.0-rc-cd22717c-20241013
-        version: 19.0.0-rc-cd22717c-20241013
+        specifier: 19.0.0-rc-65a56d0e-20241020
+        version: 19.0.0-rc-65a56d0e-20241020
       react-countup:
         specifier: ^6.5.3
-        version: 6.5.3(react@19.0.0-rc-cd22717c-20241013)
+        version: 6.5.3(react@19.0.0-rc-65a56d0e-20241020)
       react-dom:
-        specifier: 19.0.0-rc-cd22717c-20241013
-        version: 19.0.0-rc-cd22717c-20241013(react@19.0.0-rc-cd22717c-20241013)
+        specifier: 19.0.0-rc-65a56d0e-20241020
+        version: 19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020)
     devDependencies:
       '@types/keyv':
         specifier: 3.1.0
@@ -58,8 +61,14 @@ packages:
     resolution: {integrity: sha512-UrcABB+4bUrFABwbluTIBErXwvbsU/V7TZWfmbgJfbkwiBuziS9gxdODUyuiecfdGQ85jglMW6juS3+z5TsKLw==}
     engines: {node: '>=10'}
 
+  '@emnapi/core@1.3.1':
+    resolution: {integrity: sha512-pVGjBIt1Y6gg3EJN8jTcfpP/+uuRksIo055oE/OBkDNcjZqVbfkWCksG1Jp4yZnj3iKWyWX8fdG/j6UDYPbFog==}
+
   '@emnapi/runtime@1.3.1':
     resolution: {integrity: sha512-kEBmG8KyqtxJZv+ygbEim+KCGtIq1fC22Ms3S4ziXmYKm8uyoLX0MHONVKwp+9opg390VaKRNt4a7A9NwmpNhw==}
+
+  '@emnapi/wasi-threads@1.0.1':
+    resolution: {integrity: sha512-iIBu7mwkq4UQGeMEM8bLwNK962nXdhodeScX4slfQnRhEMMzvYivHhutCIk8uojvmASXXPC2WNEjwxFWk72Oqw==}
 
   '@img/sharp-darwin-arm64@0.33.5':
     resolution: {integrity: sha512-UT4p+iz/2H4twwAoLCqfA9UH5pI6DggwKEGuaPy7nCVQ8ZsiY5PIcrRvD1DzuY3qYL07NtIQcWnBSY/heikIFQ==}
@@ -191,6 +200,9 @@ packages:
   '@keyv/redis@1.3.8':
     resolution: {integrity: sha512-F0S7bEeRfX7nYW8SaX3B5CmLQJCY2VAhejRHIvpbqQC2v7PyR1R2YyUGPOhIFqv5r9mb1lV2gykEMEiMKioxhA==}
 
+  '@napi-rs/wasm-runtime@0.2.5':
+    resolution: {integrity: sha512-kwUxR7J9WLutBbulqg1dfOrMTwhMdXLdcGUhcbCcGwnPLt3gz19uHVdwH1syKVDbE022ZS2vZxOWflFLS0YTjw==}
+
   '@next/env@https://vercel-packages.vercel.app/next/commits/2b1ce0837ed1a077659b34a8d699f700e63c8c49/@next/env':
     resolution: {tarball: https://vercel-packages.vercel.app/next/commits/2b1ce0837ed1a077659b34a8d699f700e63c8c49/@next/env}
     version: 15.0.0-preview-2b1ce083-20241021
@@ -200,6 +212,93 @@ packages:
     version: 15.0.0-preview-2b1ce083-20241021
     engines: {node: '>= 10'}
     os: [linux]
+
+  '@node-rs/bcrypt-android-arm-eabi@1.10.5':
+    resolution: {integrity: sha512-g9Cs5ZtVwm+Dgb1Q2hEhJI/7r3pqM4fJRc499ItnWuHr0YN6K3H/9wmwH/nXMgq3sZgfzr7lNKzs45OQgw8Kuw==}
+    engines: {node: '>= 10'}
+    cpu: [arm]
+    os: [android]
+
+  '@node-rs/bcrypt-android-arm64@1.10.5':
+    resolution: {integrity: sha512-zaaXNcESTfqwlBh5x56v6CQqA5g5ErxbGUIUR4If2oOMjwGHMAbGmczV/LDHorLpBs8LKSECIs6Nfdr6zjzgTA==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [android]
+
+  '@node-rs/bcrypt-darwin-arm64@1.10.5':
+    resolution: {integrity: sha512-Z+rkjTHPDbuFo0gTPj+DZY0k/mRQzXuZ+2BraZKX6N1hCELdcRABjOPwZCp8ovPjzayt+kBNJx4yt9PHWxsgFw==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [darwin]
+
+  '@node-rs/bcrypt-darwin-x64@1.10.5':
+    resolution: {integrity: sha512-Fbt0ESM28H3sSRmtkXje31ataJZWm+XTobn1o7IOljHnJ+L6JHqsU3qion85TjN2NCnas567d9rBIvEFVFsBKQ==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [darwin]
+
+  '@node-rs/bcrypt-freebsd-x64@1.10.5':
+    resolution: {integrity: sha512-O6c/Dq+4qfPyhc9CuYsQVw7bEm4FQUiIHZemiDwoIDGU8zBdTq5EYGpMwSIlEVJhLDlVBJkLu+xcBw/4KOs8EA==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [freebsd]
+
+  '@node-rs/bcrypt-linux-arm-gnueabihf@1.10.5':
+    resolution: {integrity: sha512-n7HcyLNcn2ymnuhWgqujRylPPEqoNn+H4CD+7uz7fJ+Hv5V+WbZ7tAed2v38OwunE6ZDSRJhOpf1psa9PBF8Sw==}
+    engines: {node: '>= 10'}
+    cpu: [arm]
+    os: [linux]
+
+  '@node-rs/bcrypt-linux-arm64-gnu@1.10.5':
+    resolution: {integrity: sha512-Ho1odWmAS2p2ljQD9OkupLV/EaJvXYAwFB0ck4A/oC+namlojNgAl3YOwXBbalzshuLLGWYLLSLN8u3VcziwmA==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [linux]
+
+  '@node-rs/bcrypt-linux-arm64-musl@1.10.5':
+    resolution: {integrity: sha512-Dc5QS9kvq+fpMwRSmrJs1JneIUQvyjHPGHCN03Ocn0YS5NQhKRK7616lyoH7rhp4M3hwTtCbgTK4IwFCTjaqKg==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [linux]
+
+  '@node-rs/bcrypt-linux-x64-gnu@1.10.5':
+    resolution: {integrity: sha512-EnkRSaGg/5nfyfu6MSGl8Oa81GgYF54V8JVIcf/ayycSkbyfZ3z33ZPBYZxkVzPPSomhmWg4vrIUrxOy0lJurQ==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [linux]
+
+  '@node-rs/bcrypt-linux-x64-musl@1.10.5':
+    resolution: {integrity: sha512-YfgN7VzJBAnk1bEsBvTZ6HTFWcEDGZa6aPJ7namzedOkJoBWn/1FujSoin5Qvk5PhFNYWaVHkDJmuKGHwFw63g==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [linux]
+
+  '@node-rs/bcrypt-wasm32-wasi@1.10.5':
+    resolution: {integrity: sha512-uMay1Izj/uQJCuILHzT0IhTzuQYAqnLKivZRryqLDSJuOQs3O10U9qAclIHtReYsV/Qe8MtIo/+4/LB6MSC+qQ==}
+    engines: {node: '>=14.0.0'}
+    cpu: [wasm32]
+
+  '@node-rs/bcrypt-win32-arm64-msvc@1.10.5':
+    resolution: {integrity: sha512-p2CJYJZ0mhGAbdDX+7njE4uFb5Nls/I5QpKErlD8TgGY8ahdWb2XU8tXHwkq0Q5dHGuT1o+wMnmkup4G4ec/Vw==}
+    engines: {node: '>= 10'}
+    cpu: [arm64]
+    os: [win32]
+
+  '@node-rs/bcrypt-win32-ia32-msvc@1.10.5':
+    resolution: {integrity: sha512-bAXea/J7nFQgtpXbvc0PNpeXRDn4gCazIkJRIZF419O5a/Uv9wtCzkGPdNjqhCmOdeDzMbDBZb8R+eWA0iKiPQ==}
+    engines: {node: '>= 10'}
+    cpu: [ia32]
+    os: [win32]
+
+  '@node-rs/bcrypt-win32-x64-msvc@1.10.5':
+    resolution: {integrity: sha512-y7HfPzLnVNoUm2LAdKH22gtRm8wb01UNLW8RXEAQtqTWJkYwDTFzwwwvtpwXFxZ+qwcd8x/7BMcTKqgW3PLK8Q==}
+    engines: {node: '>= 10'}
+    cpu: [x64]
+    os: [win32]
+
+  '@node-rs/bcrypt@1.10.5':
+    resolution: {integrity: sha512-clUFqe5MwFKQw4doTcOOrtVJMmGGbjyWB2qonA9lmr0mBC7YydEGXLNIs7aGg3Y24nxLzbIvIDd7J0oa4gIEsQ==}
+    engines: {node: '>= 10'}
 
   '@nodelib/fs.scandir@2.1.5':
     resolution: {integrity: sha512-vq24Bq3ym5HEQm2NKCr3yXDwjc7vTsEThRDnkp2DK9p1uqLR+DHurm/NOTo0KG7HYHU7eppKZj3MyqYuMBf62g==}
@@ -222,6 +321,9 @@ packages:
 
   '@swc/helpers@0.5.13':
     resolution: {integrity: sha512-UoKGxQ3r5kYI9dALKJapMmuK+1zWM/H17Z1+iwnNmzcJRnfFuevZs375TA5rW31pu4BS4NoSy1fRsexDXfWn5w==}
+
+  '@tybys/wasm-util@0.9.0':
+    resolution: {integrity: sha512-6+7nlbMVX/PVDCwaIQ8nTOPveOcFLSt8GcXdx8hD0bt39uWxYT88uXzqTd4fTvqta7oeUJqudepapKNt2DYJFw==}
 
   '@types/keyv@3.1.0':
     resolution: {integrity: sha512-OxT2IEeRdwvoUyp8n1v1hTIFzATb3NQYN8OHv/XbXRHiF2DXwKyzoI4UUaQgwZkRflLaSgyttat+RfWgsKIMIQ==}
@@ -591,13 +693,13 @@ packages:
     peerDependencies:
       react: '>= 16.3.0'
 
-  react-dom@19.0.0-rc-cd22717c-20241013:
-    resolution: {integrity: sha512-NzjTBOXygonUxLRQuUUW5V2QLGkAcyUwJoS8+UWxs089paMvQQfoRD51w65Ovgd2OEQ8Rm3HWx+82fvXiT0czQ==}
+  react-dom@19.0.0-rc-65a56d0e-20241020:
+    resolution: {integrity: sha512-OrsgAX3LQ6JtdBJayK4nG1Hj5JebzWyhKSsrP/bmkeFxulb0nG2LaPloJ6kBkAxtgjiwRyGUciJ4+Qu64gy/KA==}
     peerDependencies:
-      react: 19.0.0-rc-cd22717c-20241013
+      react: 19.0.0-rc-65a56d0e-20241020
 
-  react@19.0.0-rc-cd22717c-20241013:
-    resolution: {integrity: sha512-k28GszmyQ1tX/JmeLGZINq5KXiNy/MmN0fCAtcwF8a9INDyVYG0zATCRGJwaPB9WixmkuwPv1BfB1QBfJC7cNg==}
+  react@19.0.0-rc-65a56d0e-20241020:
+    resolution: {integrity: sha512-rZqpfd9PP/A97j9L1MR6fvWSMgs3khgIyLd0E+gYoCcLrxXndj+ySPRVlDPDC3+f7rm8efHNL4B6HeapqU6gzw==}
     engines: {node: '>=0.10.0'}
 
   read-cache@1.0.0:
@@ -629,8 +731,8 @@ packages:
   run-parallel@1.2.0:
     resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==}
 
-  scheduler@0.25.0-rc-cd22717c-20241013:
-    resolution: {integrity: sha512-MnsFR57bKcrYslnbCUsaUG0qBuAArk92VxE0zu6A2Usz38iIuL2uZLunqKlP1W47MF33GrRGDj1sXdPbFKIZfw==}
+  scheduler@0.25.0-rc-65a56d0e-20241020:
+    resolution: {integrity: sha512-HxWcXSy0sNnf+TKRkMwyVD1z19AAVQ4gUub8m7VxJUUfSu3J4lr1T+AagohKEypiW5dbQhJuCtAumPY6z9RQ1g==}
 
   semver@7.6.3:
     resolution: {integrity: sha512-oVekP1cKtI+CTDvHWYFUcMtsK/00wmAEfyqKfNdARm8u1wNVhSgaX7A8d4UuIlUI5e84iEwOhs7ZPYRmzU9U6A==}
@@ -757,7 +859,18 @@ snapshots:
 
   '@alloc/quick-lru@5.2.0': {}
 
+  '@emnapi/core@1.3.1':
+    dependencies:
+      '@emnapi/wasi-threads': 1.0.1
+      tslib: 2.7.0
+    optional: true
+
   '@emnapi/runtime@1.3.1':
+    dependencies:
+      tslib: 2.7.0
+    optional: true
+
+  '@emnapi/wasi-threads@1.0.1':
     dependencies:
       tslib: 2.7.0
     optional: true
@@ -868,9 +981,77 @@ snapshots:
       pify: 3.0.0
       redis: 2.8.0
 
+  '@napi-rs/wasm-runtime@0.2.5':
+    dependencies:
+      '@emnapi/core': 1.3.1
+      '@emnapi/runtime': 1.3.1
+      '@tybys/wasm-util': 0.9.0
+    optional: true
+
   '@next/env@https://vercel-packages.vercel.app/next/commits/2b1ce0837ed1a077659b34a8d699f700e63c8c49/@next/env': {}
 
   '@next/swc-linux-x64-gnu@https://vercel-packages.vercel.app/next/commits/2b1ce0837ed1a077659b34a8d699f700e63c8c49/@next/swc-linux-x64-gnu': {}
+
+  '@node-rs/bcrypt-android-arm-eabi@1.10.5':
+    optional: true
+
+  '@node-rs/bcrypt-android-arm64@1.10.5':
+    optional: true
+
+  '@node-rs/bcrypt-darwin-arm64@1.10.5':
+    optional: true
+
+  '@node-rs/bcrypt-darwin-x64@1.10.5':
+    optional: true
+
+  '@node-rs/bcrypt-freebsd-x64@1.10.5':
+    optional: true
+
+  '@node-rs/bcrypt-linux-arm-gnueabihf@1.10.5':
+    optional: true
+
+  '@node-rs/bcrypt-linux-arm64-gnu@1.10.5':
+    optional: true
+
+  '@node-rs/bcrypt-linux-arm64-musl@1.10.5':
+    optional: true
+
+  '@node-rs/bcrypt-linux-x64-gnu@1.10.5':
+    optional: true
+
+  '@node-rs/bcrypt-linux-x64-musl@1.10.5':
+    optional: true
+
+  '@node-rs/bcrypt-wasm32-wasi@1.10.5':
+    dependencies:
+      '@napi-rs/wasm-runtime': 0.2.5
+    optional: true
+
+  '@node-rs/bcrypt-win32-arm64-msvc@1.10.5':
+    optional: true
+
+  '@node-rs/bcrypt-win32-ia32-msvc@1.10.5':
+    optional: true
+
+  '@node-rs/bcrypt-win32-x64-msvc@1.10.5':
+    optional: true
+
+  '@node-rs/bcrypt@1.10.5':
+    optionalDependencies:
+      '@node-rs/bcrypt-android-arm-eabi': 1.10.5
+      '@node-rs/bcrypt-android-arm64': 1.10.5
+      '@node-rs/bcrypt-darwin-arm64': 1.10.5
+      '@node-rs/bcrypt-darwin-x64': 1.10.5
+      '@node-rs/bcrypt-freebsd-x64': 1.10.5
+      '@node-rs/bcrypt-linux-arm-gnueabihf': 1.10.5
+      '@node-rs/bcrypt-linux-arm64-gnu': 1.10.5
+      '@node-rs/bcrypt-linux-arm64-musl': 1.10.5
+      '@node-rs/bcrypt-linux-x64-gnu': 1.10.5
+      '@node-rs/bcrypt-linux-x64-musl': 1.10.5
+      '@node-rs/bcrypt-wasm32-wasi': 1.10.5
+      '@node-rs/bcrypt-win32-arm64-msvc': 1.10.5
+      '@node-rs/bcrypt-win32-ia32-msvc': 1.10.5
+      '@node-rs/bcrypt-win32-x64-msvc': 1.10.5
 
   '@nodelib/fs.scandir@2.1.5':
     dependencies:
@@ -892,6 +1073,11 @@ snapshots:
   '@swc/helpers@0.5.13':
     dependencies:
       tslib: 2.7.0
+
+  '@tybys/wasm-util@0.9.0':
+    dependencies:
+      tslib: 2.7.0
+    optional: true
 
   '@types/keyv@3.1.0':
     dependencies:
@@ -1125,7 +1311,7 @@ snapshots:
 
   nanoid@3.3.7: {}
 
-  next@https://vercel-packages.vercel.app/next/commits/2b1ce0837ed1a077659b34a8d699f700e63c8c49/next(react-dom@19.0.0-rc-cd22717c-20241013(react@19.0.0-rc-cd22717c-20241013))(react@19.0.0-rc-cd22717c-20241013):
+  next@https://vercel-packages.vercel.app/next/commits/2b1ce0837ed1a077659b34a8d699f700e63c8c49/next(react-dom@19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020))(react@19.0.0-rc-65a56d0e-20241020):
     dependencies:
       '@next/env': https://vercel-packages.vercel.app/next/commits/2b1ce0837ed1a077659b34a8d699f700e63c8c49/@next/env
       '@swc/counter': 0.1.3
@@ -1133,9 +1319,9 @@ snapshots:
       busboy: 1.6.0
       caniuse-lite: 1.0.30001668
       postcss: 8.4.31
-      react: 19.0.0-rc-cd22717c-20241013
-      react-dom: 19.0.0-rc-cd22717c-20241013(react@19.0.0-rc-cd22717c-20241013)
-      styled-jsx: 5.1.6(react@19.0.0-rc-cd22717c-20241013)
+      react: 19.0.0-rc-65a56d0e-20241020
+      react-dom: 19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020)
+      styled-jsx: 5.1.6(react@19.0.0-rc-65a56d0e-20241020)
     optionalDependencies:
       '@next/swc-linux-x64-gnu': https://vercel-packages.vercel.app/next/commits/2b1ce0837ed1a077659b34a8d699f700e63c8c49/@next/swc-linux-x64-gnu
       sharp: 0.33.5
@@ -1215,17 +1401,17 @@ snapshots:
 
   queue-microtask@1.2.3: {}
 
-  react-countup@6.5.3(react@19.0.0-rc-cd22717c-20241013):
+  react-countup@6.5.3(react@19.0.0-rc-65a56d0e-20241020):
     dependencies:
       countup.js: 2.8.0
-      react: 19.0.0-rc-cd22717c-20241013
+      react: 19.0.0-rc-65a56d0e-20241020
 
-  react-dom@19.0.0-rc-cd22717c-20241013(react@19.0.0-rc-cd22717c-20241013):
+  react-dom@19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020):
     dependencies:
-      react: 19.0.0-rc-cd22717c-20241013
-      scheduler: 0.25.0-rc-cd22717c-20241013
+      react: 19.0.0-rc-65a56d0e-20241020
+      scheduler: 0.25.0-rc-65a56d0e-20241020
 
-  react@19.0.0-rc-cd22717c-20241013: {}
+  react@19.0.0-rc-65a56d0e-20241020: {}
 
   read-cache@1.0.0:
     dependencies:
@@ -1257,7 +1443,7 @@ snapshots:
     dependencies:
       queue-microtask: 1.2.3
 
-  scheduler@0.25.0-rc-cd22717c-20241013: {}
+  scheduler@0.25.0-rc-65a56d0e-20241020: {}
 
   semver@7.6.3:
     optional: true
@@ -1326,10 +1512,10 @@ snapshots:
     dependencies:
       ansi-regex: 6.1.0
 
-  styled-jsx@5.1.6(react@19.0.0-rc-cd22717c-20241013):
+  styled-jsx@5.1.6(react@19.0.0-rc-65a56d0e-20241020):
     dependencies:
       client-only: 0.0.1
-      react: 19.0.0-rc-cd22717c-20241013
+      react: 19.0.0-rc-65a56d0e-20241020
 
   sucrase@3.35.0:
     dependencies:

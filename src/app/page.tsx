@@ -1,9 +1,7 @@
 import * as Keyv from "keyv";
-import * as _ from "@keyv/redis";
 import Image from "next/image";
 import { Suspense } from "react";
-import { CountUp } from "./countup";
-import CountUpInner from "react-countup";
+import { hashSync } from "@node-rs/bcrypt";
 
 export const dynamic = "force-dynamic";
 
@@ -17,9 +15,9 @@ export async function GetVisitorCount() {
     await keyv.set("visits", 1);
   }
 
-  await new Promise((resolve) => setTimeout(resolve, 3000));
+  await new Promise((resolve) => setTimeout(resolve, 1000));
 
-  return <CountUp key="countup" end={visits} duration={5} />;
+  return <span>{visits}</span>;
 }
 
 export default async function Home() {
@@ -41,9 +39,12 @@ export default async function Home() {
         </div>
         <p className="font-mono text-center w-full text-neutral-500 text-sm flex items-center justify-center">
           <span>You are visitor #</span>
-          <Suspense fallback={<CountUp key="countup" end={100} duration={5} />}>
+          <Suspense fallback={<span className="blur-sm">12</span>}>
             <GetVisitorCount />
           </Suspense>
+        </p>
+        <p className="font-mono text-center w-full text-neutral-500 text-sm flex items-center justify-center">
+          Hash of "abc": {hashSync("abc")}
         </p>
         <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
           <li className="mb-2">
