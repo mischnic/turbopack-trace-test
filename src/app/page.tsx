@@ -45,21 +45,19 @@ export default async function Home() {
             TURBOPACK-TRACE
           </h1>
         </div>
-        <p className="font-mono text-center w-full text-sm flex items-center">
+        <div className="font-mono text-center w-full text-sm flex items-center">
           <span>You are visitor #</span>
           <Suspense fallback={<span className="blur-sm">12</span>}>
             <GetVisitorCount />
           </Suspense>
-        </p>
-        <p className="font-mono text-center w-full text-sm flex items-center">
+        </div>
+        <div className="font-mono text-center w-full text-sm flex items-center">
           Hash of "abc": {hashSync("abc")}
-        </p>
-        <p className="font-mono text-center w-full text-sm flex items-center">
+        </div>
+        <div className="font-mono text-center w-full text-sm flex items-center">
           Reading the file `path.join(process.cwd(),"data.txt")`: {data}
-        </p>
-        <p className="font-mono text-center w-full text-sm flex items-center">
-          <Client />
-        </p>
+        </div>
+        <Client />
       </main>
     </div>
   );
