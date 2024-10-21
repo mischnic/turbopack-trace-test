@@ -1,0 +1,29 @@
+{
+  "name": "example-turbopack-build",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@keyv/redis": "1.3.8",
+    "@next/swc-linux-x64-gnu": "https://vercel-packages.vercel.app/next/commits/a1e14f6815e8c497b6248cc4871dc9098b1622ba/@next/swc-linux-x64-gnu",
+    "keyv": "^3.1.0",
+    "next": "https://vercel-packages.vercel.app/next/commits/a1e14f6815e8c497b6248cc4871dc9098b1622ba/next",
+    "react": "19.0.0-rc-cd22717c-20241013",
+    "react-countup": "^6.5.3",
+    "react-dom": "19.0.0-rc-cd22717c-20241013"
+  },
+  "devDependencies": {
+    "@types/keyv": "3.1.0",
+    "@types/node": "^20",
+    "@types/react": "^18",
+    "@types/react-dom": "^18",
+    "postcss": "^8",
+    "tailwindcss": "^3.4.1",
+    "typescript": "^5"
+  }
+}
