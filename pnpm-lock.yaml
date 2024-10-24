@@ -12,8 +12,8 @@ importers:
         specifier: 1.3.8
         version: 1.3.8
       '@next/swc-linux-x64-gnu':
-        specifier: https://vercel-packages.vercel.app/next/commits/aeb5a01ebcfc187ed19bc28c0045ef2319085afb/@next/swc-linux-x64-gnu
-        version: https://vercel-packages.vercel.app/next/commits/aeb5a01ebcfc187ed19bc28c0045ef2319085afb/@next/swc-linux-x64-gnu
+        specifier: https://vercel-packages.vercel.app/next/commits/4e5660c20196a53fc9e1b5b2f60c667d60793b8d/@next/swc-linux-x64-gnu
+        version: https://vercel-packages.vercel.app/next/commits/4e5660c20196a53fc9e1b5b2f60c667d60793b8d/@next/swc-linux-x64-gnu
       '@node-rs/bcrypt':
         specifier: ^1.10.5
         version: 1.10.5
@@ -21,8 +21,8 @@ importers:
         specifier: ^3.1.0
         version: 3.1.0
       next:
-        specifier: https://vercel-packages.vercel.app/next/commits/aeb5a01ebcfc187ed19bc28c0045ef2319085afb/next
-        version: https://vercel-packages.vercel.app/next/commits/aeb5a01ebcfc187ed19bc28c0045ef2319085afb/next(react-dom@19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020))(react@19.0.0-rc-65a56d0e-20241020)
+        specifier: https://vercel-packages.vercel.app/next/commits/4e5660c20196a53fc9e1b5b2f60c667d60793b8d/next
+        version: https://vercel-packages.vercel.app/next/commits/4e5660c20196a53fc9e1b5b2f60c667d60793b8d/next(react-dom@19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020))(react@19.0.0-rc-65a56d0e-20241020)
       react:
         specifier: 19.0.0-rc-65a56d0e-20241020
         version: 19.0.0-rc-65a56d0e-20241020
@@ -203,13 +203,13 @@ packages:
   '@napi-rs/wasm-runtime@0.2.5':
     resolution: {integrity: sha512-kwUxR7J9WLutBbulqg1dfOrMTwhMdXLdcGUhcbCcGwnPLt3gz19uHVdwH1syKVDbE022ZS2vZxOWflFLS0YTjw==}
 
-  '@next/env@https://vercel-packages.vercel.app/next/commits/aeb5a01ebcfc187ed19bc28c0045ef2319085afb/@next/env':
-    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/aeb5a01ebcfc187ed19bc28c0045ef2319085afb/@next/env}
-    version: 15.0.0-preview-aeb5a01e-20241021
+  '@next/env@https://vercel-packages.vercel.app/next/commits/4e5660c20196a53fc9e1b5b2f60c667d60793b8d/@next/env':
+    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/4e5660c20196a53fc9e1b5b2f60c667d60793b8d/@next/env}
+    version: 15.0.2-preview-4e5660c2-20241024
 
-  '@next/swc-linux-x64-gnu@https://vercel-packages.vercel.app/next/commits/aeb5a01ebcfc187ed19bc28c0045ef2319085afb/@next/swc-linux-x64-gnu':
-    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/aeb5a01ebcfc187ed19bc28c0045ef2319085afb/@next/swc-linux-x64-gnu}
-    version: 15.0.0-preview-aeb5a01e-20241021
+  '@next/swc-linux-x64-gnu@https://vercel-packages.vercel.app/next/commits/4e5660c20196a53fc9e1b5b2f60c667d60793b8d/@next/swc-linux-x64-gnu':
+    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/4e5660c20196a53fc9e1b5b2f60c667d60793b8d/@next/swc-linux-x64-gnu}
+    version: 15.0.2-preview-4e5660c2-20241024
     engines: {node: '>= 10'}
     os: [linux]
 
@@ -573,17 +573,17 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
-  next@https://vercel-packages.vercel.app/next/commits/aeb5a01ebcfc187ed19bc28c0045ef2319085afb/next:
-    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/aeb5a01ebcfc187ed19bc28c0045ef2319085afb/next}
-    version: 15.0.0-preview-aeb5a01e-20241021
+  next@https://vercel-packages.vercel.app/next/commits/4e5660c20196a53fc9e1b5b2f60c667d60793b8d/next:
+    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/4e5660c20196a53fc9e1b5b2f60c667d60793b8d/next}
+    version: 15.0.2-preview-4e5660c2-20241024
     engines: {node: '>=18.18.0'}
     hasBin: true
     peerDependencies:
       '@opentelemetry/api': ^1.1.0
       '@playwright/test': ^1.41.2
       babel-plugin-react-compiler: '*'
-      react: ^18.2.0 || 19.0.0-rc-65a56d0e-20241020
-      react-dom: ^18.2.0 || 19.0.0-rc-65a56d0e-20241020
+      react: ^18.2.0 || 19.0.0-rc-1631855f-20241023
+      react-dom: ^18.2.0 || 19.0.0-rc-1631855f-20241023
       sass: ^1.3.0
     peerDependenciesMeta:
       '@opentelemetry/api':
@@ -988,9 +988,9 @@ snapshots:
       '@tybys/wasm-util': 0.9.0
     optional: true
 
-  '@next/env@https://vercel-packages.vercel.app/next/commits/aeb5a01ebcfc187ed19bc28c0045ef2319085afb/@next/env': {}
+  '@next/env@https://vercel-packages.vercel.app/next/commits/4e5660c20196a53fc9e1b5b2f60c667d60793b8d/@next/env': {}
 
-  '@next/swc-linux-x64-gnu@https://vercel-packages.vercel.app/next/commits/aeb5a01ebcfc187ed19bc28c0045ef2319085afb/@next/swc-linux-x64-gnu': {}
+  '@next/swc-linux-x64-gnu@https://vercel-packages.vercel.app/next/commits/4e5660c20196a53fc9e1b5b2f60c667d60793b8d/@next/swc-linux-x64-gnu': {}
 
   '@node-rs/bcrypt-android-arm-eabi@1.10.5':
     optional: true
@@ -1311,9 +1311,9 @@ snapshots:
 
   nanoid@3.3.7: {}
 
-  next@https://vercel-packages.vercel.app/next/commits/aeb5a01ebcfc187ed19bc28c0045ef2319085afb/next(react-dom@19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020))(react@19.0.0-rc-65a56d0e-20241020):
+  next@https://vercel-packages.vercel.app/next/commits/4e5660c20196a53fc9e1b5b2f60c667d60793b8d/next(react-dom@19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020))(react@19.0.0-rc-65a56d0e-20241020):
     dependencies:
-      '@next/env': https://vercel-packages.vercel.app/next/commits/aeb5a01ebcfc187ed19bc28c0045ef2319085afb/@next/env
+      '@next/env': https://vercel-packages.vercel.app/next/commits/4e5660c20196a53fc9e1b5b2f60c667d60793b8d/@next/env
       '@swc/counter': 0.1.3
       '@swc/helpers': 0.5.13
       busboy: 1.6.0
@@ -1323,7 +1323,7 @@ snapshots:
       react-dom: 19.0.0-rc-65a56d0e-20241020(react@19.0.0-rc-65a56d0e-20241020)
       styled-jsx: 5.1.6(react@19.0.0-rc-65a56d0e-20241020)
     optionalDependencies:
-      '@next/swc-linux-x64-gnu': https://vercel-packages.vercel.app/next/commits/aeb5a01ebcfc187ed19bc28c0045ef2319085afb/@next/swc-linux-x64-gnu
+      '@next/swc-linux-x64-gnu': https://vercel-packages.vercel.app/next/commits/4e5660c20196a53fc9e1b5b2f60c667d60793b8d/@next/swc-linux-x64-gnu
       sharp: 0.33.5
     transitivePeerDependencies:
       - '@babel/core'

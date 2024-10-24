@@ -10,10 +10,10 @@
   },
   "dependencies": {
     "@keyv/redis": "1.3.8",
-    "@next/swc-linux-x64-gnu": "https://vercel-packages.vercel.app/next/commits/aeb5a01ebcfc187ed19bc28c0045ef2319085afb/@next/swc-linux-x64-gnu",
+    "@next/swc-linux-x64-gnu": "https://vercel-packages.vercel.app/next/commits/4e5660c20196a53fc9e1b5b2f60c667d60793b8d/@next/swc-linux-x64-gnu",
     "@node-rs/bcrypt": "^1.10.5",
     "keyv": "^3.1.0",
-    "next": "https://vercel-packages.vercel.app/next/commits/aeb5a01ebcfc187ed19bc28c0045ef2319085afb/next",
+    "next": "https://vercel-packages.vercel.app/next/commits/4e5660c20196a53fc9e1b5b2f60c667d60793b8d/next",
     "react": "19.0.0-rc-65a56d0e-20241020",
     "react-countup": "^6.5.3",
     "react-dom": "19.0.0-rc-65a56d0e-20241020"
