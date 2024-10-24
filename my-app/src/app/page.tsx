@@ -58,6 +58,9 @@ export default async function Home() {
           Reading the file `path.join(process.cwd(),"data.txt")`: {data}
         </div>
         <Client />
+        <div className="font-mono text-center w-full text-sm flex items-center">
+          <a href="/pages">Go to Pages subsection</a>
+        </div>
       </main>
     </div>
   );

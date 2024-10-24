@@ -16,7 +16,8 @@
     "next": "https://vercel-packages.vercel.app/next/commits/4e5660c20196a53fc9e1b5b2f60c667d60793b8d/next",
     "react": "19.0.0-rc-1631855f-20241023",
     "react-countup": "^6.5.3",
-    "react-dom": "19.0.0-rc-1631855f-20241023"
+    "react-dom": "19.0.0-rc-1631855f-20241023",
+    "swr": "^2.2.4"
   },
   "devDependencies": {
     "@types/keyv": "3.1.0",

@@ -1,4 +1,7 @@
 {
     "name": "monorepo",
-    "private": true
+    "private": true,
+    "scripts": {
+        "dev": "pnpm run --filter example-turbopack-build dev"
+    }
 }
