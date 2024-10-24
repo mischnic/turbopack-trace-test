@@ -3,5 +3,17 @@
     "private": true,
     "scripts": {
         "dev": "pnpm run --filter example-turbopack-build dev"
+    },
+    "dependencies": {
+        "@next/swc-linux-x64-gnu": "https://vercel-packages.vercel.app/next/commits/5fdf390ebe92e636bf970b770c217230b49036e4/@next/swc-linux-x64-gnu"
+    },
+    "pnpm": {
+        "overrides": {
+            "next": "https://vercel-packages.vercel.app/next/commits/5fdf390ebe92e636bf970b770c217230b49036e4/next",
+            "@next/mdx": "https://vercel-packages.vercel.app/next/commits/5fdf390ebe92e636bf970b770c217230b49036e4/@next/mdx",
+            "@next/env": "https://vercel-packages.vercel.app/next/commits/5fdf390ebe92e636bf970b770c217230b49036e4/@next/env",
+            "react": "19.0.0-rc-1631855f-20241023",
+            "react-dom": "19.0.0-rc-1631855f-20241023"
+        }
     }
 }
