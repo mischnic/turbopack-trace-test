@@ -1,0 +1,11 @@
+{
+  "name": "other-app",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {},
+  "dependencies": {
+    "next": "15.0.0",
+    "react": "^18",
+    "react-dom": "^18"
+  }
+}
