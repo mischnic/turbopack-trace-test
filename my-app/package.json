@@ -11,6 +11,7 @@
   "dependencies": {
     "@keyv/redis": "1.3.8",
     "@node-rs/bcrypt": "^1.10.5",
+    "ai": "^3.4.22",
     "keyv": "^3.1.0",
     "next": "15.0.2-canary.3",
     "react": "19.0.0-rc-1631855f-20241023",
