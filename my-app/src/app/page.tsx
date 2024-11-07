@@ -64,6 +64,9 @@ export default async function Home() {
         <div className="flex items-center w-full font-mono text-sm text-center">
           <a href="/otel">Go to OTEL test</a>
         </div>
+        <div className="flex items-center w-full font-mono text-sm text-center">
+          <a href="/edge">Go to Edge API test</a>
+        </div>
       </main>
     </div>
   );
