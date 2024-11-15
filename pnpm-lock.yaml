@@ -5,9 +5,9 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
-  next: https://vercel-packages.vercel.app/next/commits/10832b638def0e167fc96b37ff4d7d4b88316183/next
-  '@next/mdx': https://vercel-packages.vercel.app/next/commits/10832b638def0e167fc96b37ff4d7d4b88316183/@next/mdx
-  '@next/env': https://vercel-packages.vercel.app/next/commits/10832b638def0e167fc96b37ff4d7d4b88316183/@next/env
+  next: https://vercel-packages.vercel.app/next/commits/76eb31a30fe1f222abd670e24a5493f1fe5a1a38/next
+  '@next/mdx': https://vercel-packages.vercel.app/next/commits/76eb31a30fe1f222abd670e24a5493f1fe5a1a38/@next/mdx
+  '@next/env': https://vercel-packages.vercel.app/next/commits/76eb31a30fe1f222abd670e24a5493f1fe5a1a38/@next/env
   react: 19.0.0-rc-7ac8e612-20241113
   react-dom: 19.0.0-rc-7ac8e612-20241113
 
@@ -16,8 +16,8 @@ importers:
   .:
     dependencies:
       '@next/swc-linux-x64-gnu':
-        specifier: https://vercel-packages.vercel.app/next/commits/10832b638def0e167fc96b37ff4d7d4b88316183/@next/swc-linux-x64-gnu
-        version: https://vercel-packages.vercel.app/next/commits/10832b638def0e167fc96b37ff4d7d4b88316183/@next/swc-linux-x64-gnu
+        specifier: https://vercel-packages.vercel.app/next/commits/76eb31a30fe1f222abd670e24a5493f1fe5a1a38/@next/swc-linux-x64-gnu
+        version: https://vercel-packages.vercel.app/next/commits/76eb31a30fe1f222abd670e24a5493f1fe5a1a38/@next/swc-linux-x64-gnu
 
   my-app:
     dependencies:
@@ -37,8 +37,8 @@ importers:
         specifier: ^3.1.0
         version: 3.1.0
       next:
-        specifier: https://vercel-packages.vercel.app/next/commits/10832b638def0e167fc96b37ff4d7d4b88316183/next
-        version: https://vercel-packages.vercel.app/next/commits/10832b638def0e167fc96b37ff4d7d4b88316183/next(@opentelemetry/api@1.9.0)(react-dom@19.0.0-rc-7ac8e612-20241113(react@19.0.0-rc-7ac8e612-20241113))(react@19.0.0-rc-7ac8e612-20241113)
+        specifier: https://vercel-packages.vercel.app/next/commits/76eb31a30fe1f222abd670e24a5493f1fe5a1a38/next
+        version: https://vercel-packages.vercel.app/next/commits/76eb31a30fe1f222abd670e24a5493f1fe5a1a38/next(@opentelemetry/api@1.9.0)(react-dom@19.0.0-rc-7ac8e612-20241113(react@19.0.0-rc-7ac8e612-20241113))(react@19.0.0-rc-7ac8e612-20241113)
       react:
         specifier: 19.0.0-rc-7ac8e612-20241113
         version: 19.0.0-rc-7ac8e612-20241113
@@ -77,8 +77,8 @@ importers:
   other-app:
     dependencies:
       next:
-        specifier: https://vercel-packages.vercel.app/next/commits/10832b638def0e167fc96b37ff4d7d4b88316183/next
-        version: https://vercel-packages.vercel.app/next/commits/10832b638def0e167fc96b37ff4d7d4b88316183/next(@opentelemetry/api@1.9.0)(react-dom@19.0.0-rc-7ac8e612-20241113(react@19.0.0-rc-7ac8e612-20241113))(react@19.0.0-rc-7ac8e612-20241113)
+        specifier: https://vercel-packages.vercel.app/next/commits/76eb31a30fe1f222abd670e24a5493f1fe5a1a38/next
+        version: https://vercel-packages.vercel.app/next/commits/76eb31a30fe1f222abd670e24a5493f1fe5a1a38/next(@opentelemetry/api@1.9.0)(react-dom@19.0.0-rc-7ac8e612-20241113(react@19.0.0-rc-7ac8e612-20241113))(react@19.0.0-rc-7ac8e612-20241113)
       react:
         specifier: 19.0.0-rc-7ac8e612-20241113
         version: 19.0.0-rc-7ac8e612-20241113
@@ -316,13 +316,13 @@ packages:
   '@napi-rs/wasm-runtime@0.2.5':
     resolution: {integrity: sha512-kwUxR7J9WLutBbulqg1dfOrMTwhMdXLdcGUhcbCcGwnPLt3gz19uHVdwH1syKVDbE022ZS2vZxOWflFLS0YTjw==}
 
-  '@next/env@https://vercel-packages.vercel.app/next/commits/10832b638def0e167fc96b37ff4d7d4b88316183/@next/env':
-    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/10832b638def0e167fc96b37ff4d7d4b88316183/@next/env}
-    version: 15.0.4-preview-10832b63-20241114
+  '@next/env@https://vercel-packages.vercel.app/next/commits/76eb31a30fe1f222abd670e24a5493f1fe5a1a38/@next/env':
+    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/76eb31a30fe1f222abd670e24a5493f1fe5a1a38/@next/env}
+    version: 15.0.4-preview-76eb31a3-20241114
 
-  '@next/swc-linux-x64-gnu@https://vercel-packages.vercel.app/next/commits/10832b638def0e167fc96b37ff4d7d4b88316183/@next/swc-linux-x64-gnu':
-    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/10832b638def0e167fc96b37ff4d7d4b88316183/@next/swc-linux-x64-gnu}
-    version: 15.0.4-preview-10832b63-20241114
+  '@next/swc-linux-x64-gnu@https://vercel-packages.vercel.app/next/commits/76eb31a30fe1f222abd670e24a5493f1fe5a1a38/@next/swc-linux-x64-gnu':
+    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/76eb31a30fe1f222abd670e24a5493f1fe5a1a38/@next/swc-linux-x64-gnu}
+    version: 15.0.4-preview-76eb31a3-20241114
     engines: {node: '>= 10'}
     os: [linux]
 
@@ -816,9 +816,9 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
-  next@https://vercel-packages.vercel.app/next/commits/10832b638def0e167fc96b37ff4d7d4b88316183/next:
-    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/10832b638def0e167fc96b37ff4d7d4b88316183/next}
-    version: 15.0.4-preview-10832b63-20241114
+  next@https://vercel-packages.vercel.app/next/commits/76eb31a30fe1f222abd670e24a5493f1fe5a1a38/next:
+    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/76eb31a30fe1f222abd670e24a5493f1fe5a1a38/next}
+    version: 15.0.4-preview-76eb31a3-20241114
     engines: {node: ^18.18.0 || ^19.8.0 || >= 20.0.0}
     hasBin: true
     peerDependencies:
@@ -1357,9 +1357,9 @@ snapshots:
       '@tybys/wasm-util': 0.9.0
     optional: true
 
-  '@next/env@https://vercel-packages.vercel.app/next/commits/10832b638def0e167fc96b37ff4d7d4b88316183/@next/env': {}
+  '@next/env@https://vercel-packages.vercel.app/next/commits/76eb31a30fe1f222abd670e24a5493f1fe5a1a38/@next/env': {}
 
-  '@next/swc-linux-x64-gnu@https://vercel-packages.vercel.app/next/commits/10832b638def0e167fc96b37ff4d7d4b88316183/@next/swc-linux-x64-gnu': {}
+  '@next/swc-linux-x64-gnu@https://vercel-packages.vercel.app/next/commits/76eb31a30fe1f222abd670e24a5493f1fe5a1a38/@next/swc-linux-x64-gnu': {}
 
   '@node-rs/bcrypt-android-arm-eabi@1.10.5':
     optional: true
@@ -1819,9 +1819,9 @@ snapshots:
 
   nanoid@3.3.7: {}
 
-  next@https://vercel-packages.vercel.app/next/commits/10832b638def0e167fc96b37ff4d7d4b88316183/next(@opentelemetry/api@1.9.0)(react-dom@19.0.0-rc-7ac8e612-20241113(react@19.0.0-rc-7ac8e612-20241113))(react@19.0.0-rc-7ac8e612-20241113):
+  next@https://vercel-packages.vercel.app/next/commits/76eb31a30fe1f222abd670e24a5493f1fe5a1a38/next(@opentelemetry/api@1.9.0)(react-dom@19.0.0-rc-7ac8e612-20241113(react@19.0.0-rc-7ac8e612-20241113))(react@19.0.0-rc-7ac8e612-20241113):
     dependencies:
-      '@next/env': https://vercel-packages.vercel.app/next/commits/10832b638def0e167fc96b37ff4d7d4b88316183/@next/env
+      '@next/env': https://vercel-packages.vercel.app/next/commits/76eb31a30fe1f222abd670e24a5493f1fe5a1a38/@next/env
       '@swc/counter': 0.1.3
       '@swc/helpers': 0.5.13
       busboy: 1.6.0
@@ -1831,7 +1831,7 @@ snapshots:
       react-dom: 19.0.0-rc-7ac8e612-20241113(react@19.0.0-rc-7ac8e612-20241113)
       styled-jsx: 5.1.6(react@19.0.0-rc-7ac8e612-20241113)
     optionalDependencies:
-      '@next/swc-linux-x64-gnu': https://vercel-packages.vercel.app/next/commits/10832b638def0e167fc96b37ff4d7d4b88316183/@next/swc-linux-x64-gnu
+      '@next/swc-linux-x64-gnu': https://vercel-packages.vercel.app/next/commits/76eb31a30fe1f222abd670e24a5493f1fe5a1a38/@next/swc-linux-x64-gnu
       '@opentelemetry/api': 1.9.0
       sharp: 0.33.5
     transitivePeerDependencies:
