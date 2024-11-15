@@ -5,19 +5,19 @@ settings:
   excludeLinksFromLockfile: false
 
 overrides:
-  next: https://vercel-packages.vercel.app/next/commits/0ee487c232d496a7d30751ae1ca37492307cf86a/next
-  '@next/mdx': https://vercel-packages.vercel.app/next/commits/0ee487c232d496a7d30751ae1ca37492307cf86a/@next/mdx
-  '@next/env': https://vercel-packages.vercel.app/next/commits/0ee487c232d496a7d30751ae1ca37492307cf86a/@next/env
-  react: 19.0.0-rc-1631855f-20241023
-  react-dom: 19.0.0-rc-1631855f-20241023
+  next: https://vercel-packages.vercel.app/next/commits/10832b638def0e167fc96b37ff4d7d4b88316183/next
+  '@next/mdx': https://vercel-packages.vercel.app/next/commits/10832b638def0e167fc96b37ff4d7d4b88316183/@next/mdx
+  '@next/env': https://vercel-packages.vercel.app/next/commits/10832b638def0e167fc96b37ff4d7d4b88316183/@next/env
+  react: 19.0.0-rc-7ac8e612-20241113
+  react-dom: 19.0.0-rc-7ac8e612-20241113
 
 importers:
 
   .:
     dependencies:
       '@next/swc-linux-x64-gnu':
-        specifier: https://vercel-packages.vercel.app/next/commits/0ee487c232d496a7d30751ae1ca37492307cf86a/@next/swc-linux-x64-gnu
-        version: https://vercel-packages.vercel.app/next/commits/0ee487c232d496a7d30751ae1ca37492307cf86a/@next/swc-linux-x64-gnu
+        specifier: https://vercel-packages.vercel.app/next/commits/10832b638def0e167fc96b37ff4d7d4b88316183/@next/swc-linux-x64-gnu
+        version: https://vercel-packages.vercel.app/next/commits/10832b638def0e167fc96b37ff4d7d4b88316183/@next/swc-linux-x64-gnu
 
   my-app:
     dependencies:
@@ -32,25 +32,25 @@ importers:
         version: 1.5.0
       ai:
         specifier: ^3.4.22
-        version: 3.4.22(react@19.0.0-rc-1631855f-20241023)(sswr@2.1.0(svelte@4.2.19))(svelte@4.2.19)(vue@3.5.12(typescript@5.6.3))(zod@3.23.8)
+        version: 3.4.22(react@19.0.0-rc-7ac8e612-20241113)(sswr@2.1.0(svelte@4.2.19))(svelte@4.2.19)(vue@3.5.12(typescript@5.6.3))(zod@3.23.8)
       keyv:
         specifier: ^3.1.0
         version: 3.1.0
       next:
-        specifier: https://vercel-packages.vercel.app/next/commits/0ee487c232d496a7d30751ae1ca37492307cf86a/next
-        version: https://vercel-packages.vercel.app/next/commits/0ee487c232d496a7d30751ae1ca37492307cf86a/next(@opentelemetry/api@1.9.0)(react-dom@19.0.0-rc-1631855f-20241023(react@19.0.0-rc-1631855f-20241023))(react@19.0.0-rc-1631855f-20241023)
+        specifier: https://vercel-packages.vercel.app/next/commits/10832b638def0e167fc96b37ff4d7d4b88316183/next
+        version: https://vercel-packages.vercel.app/next/commits/10832b638def0e167fc96b37ff4d7d4b88316183/next(@opentelemetry/api@1.9.0)(react-dom@19.0.0-rc-7ac8e612-20241113(react@19.0.0-rc-7ac8e612-20241113))(react@19.0.0-rc-7ac8e612-20241113)
       react:
-        specifier: 19.0.0-rc-1631855f-20241023
-        version: 19.0.0-rc-1631855f-20241023
+        specifier: 19.0.0-rc-7ac8e612-20241113
+        version: 19.0.0-rc-7ac8e612-20241113
       react-countup:
         specifier: ^6.5.3
-        version: 6.5.3(react@19.0.0-rc-1631855f-20241023)
+        version: 6.5.3(react@19.0.0-rc-7ac8e612-20241113)
       react-dom:
-        specifier: 19.0.0-rc-1631855f-20241023
-        version: 19.0.0-rc-1631855f-20241023(react@19.0.0-rc-1631855f-20241023)
+        specifier: 19.0.0-rc-7ac8e612-20241113
+        version: 19.0.0-rc-7ac8e612-20241113(react@19.0.0-rc-7ac8e612-20241113)
       swr:
         specifier: ^2.2.4
-        version: 2.2.5(react@19.0.0-rc-1631855f-20241023)
+        version: 2.2.5(react@19.0.0-rc-7ac8e612-20241113)
     devDependencies:
       '@types/keyv':
         specifier: 3.1.0
@@ -77,14 +77,14 @@ importers:
   other-app:
     dependencies:
       next:
-        specifier: https://vercel-packages.vercel.app/next/commits/0ee487c232d496a7d30751ae1ca37492307cf86a/next
-        version: https://vercel-packages.vercel.app/next/commits/0ee487c232d496a7d30751ae1ca37492307cf86a/next(@opentelemetry/api@1.9.0)(react-dom@19.0.0-rc-1631855f-20241023(react@19.0.0-rc-1631855f-20241023))(react@19.0.0-rc-1631855f-20241023)
+        specifier: https://vercel-packages.vercel.app/next/commits/10832b638def0e167fc96b37ff4d7d4b88316183/next
+        version: https://vercel-packages.vercel.app/next/commits/10832b638def0e167fc96b37ff4d7d4b88316183/next(@opentelemetry/api@1.9.0)(react-dom@19.0.0-rc-7ac8e612-20241113(react@19.0.0-rc-7ac8e612-20241113))(react@19.0.0-rc-7ac8e612-20241113)
       react:
-        specifier: 19.0.0-rc-1631855f-20241023
-        version: 19.0.0-rc-1631855f-20241023
+        specifier: 19.0.0-rc-7ac8e612-20241113
+        version: 19.0.0-rc-7ac8e612-20241113
       react-dom:
-        specifier: 19.0.0-rc-1631855f-20241023
-        version: 19.0.0-rc-1631855f-20241023(react@19.0.0-rc-1631855f-20241023)
+        specifier: 19.0.0-rc-7ac8e612-20241113
+        version: 19.0.0-rc-7ac8e612-20241113(react@19.0.0-rc-7ac8e612-20241113)
 
 packages:
 
@@ -105,7 +105,7 @@ packages:
     resolution: {integrity: sha512-+Fp0DNUHAJ8MOnMCms8ythEiFCSxktjHieArlp2pES6xovI1YJF8zmTiF0GTUQeA1tFs4HFbWxVwYklf8hQOZw==}
     engines: {node: '>=18'}
     peerDependencies:
-      react: 19.0.0-rc-1631855f-20241023
+      react: 19.0.0-rc-7ac8e612-20241113
       zod: ^3.0.0
     peerDependenciesMeta:
       react:
@@ -316,13 +316,13 @@ packages:
   '@napi-rs/wasm-runtime@0.2.5':
     resolution: {integrity: sha512-kwUxR7J9WLutBbulqg1dfOrMTwhMdXLdcGUhcbCcGwnPLt3gz19uHVdwH1syKVDbE022ZS2vZxOWflFLS0YTjw==}
 
-  '@next/env@https://vercel-packages.vercel.app/next/commits/0ee487c232d496a7d30751ae1ca37492307cf86a/@next/env':
-    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/0ee487c232d496a7d30751ae1ca37492307cf86a/@next/env}
-    version: 15.0.3-preview-0ee487c2-20241107
+  '@next/env@https://vercel-packages.vercel.app/next/commits/10832b638def0e167fc96b37ff4d7d4b88316183/@next/env':
+    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/10832b638def0e167fc96b37ff4d7d4b88316183/@next/env}
+    version: 15.0.4-preview-10832b63-20241114
 
-  '@next/swc-linux-x64-gnu@https://vercel-packages.vercel.app/next/commits/0ee487c232d496a7d30751ae1ca37492307cf86a/@next/swc-linux-x64-gnu':
-    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/0ee487c232d496a7d30751ae1ca37492307cf86a/@next/swc-linux-x64-gnu}
-    version: 15.0.3-preview-0ee487c2-20241107
+  '@next/swc-linux-x64-gnu@https://vercel-packages.vercel.app/next/commits/10832b638def0e167fc96b37ff4d7d4b88316183/@next/swc-linux-x64-gnu':
+    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/10832b638def0e167fc96b37ff4d7d4b88316183/@next/swc-linux-x64-gnu}
+    version: 15.0.4-preview-10832b63-20241114
     engines: {node: '>= 10'}
     os: [linux]
 
@@ -511,7 +511,7 @@ packages:
     engines: {node: '>=18'}
     peerDependencies:
       openai: ^4.42.0
-      react: 19.0.0-rc-1631855f-20241023
+      react: 19.0.0-rc-7ac8e612-20241113
       sswr: ^2.1.0
       svelte: ^3.0.0 || ^4.0.0
       zod: ^3.0.0
@@ -816,17 +816,17 @@ packages:
     engines: {node: ^10 || ^12 || ^13.7 || ^14 || >=15.0.1}
     hasBin: true
 
-  next@https://vercel-packages.vercel.app/next/commits/0ee487c232d496a7d30751ae1ca37492307cf86a/next:
-    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/0ee487c232d496a7d30751ae1ca37492307cf86a/next}
-    version: 15.0.3-preview-0ee487c2-20241107
+  next@https://vercel-packages.vercel.app/next/commits/10832b638def0e167fc96b37ff4d7d4b88316183/next:
+    resolution: {tarball: https://vercel-packages.vercel.app/next/commits/10832b638def0e167fc96b37ff4d7d4b88316183/next}
+    version: 15.0.4-preview-10832b63-20241114
     engines: {node: ^18.18.0 || ^19.8.0 || >= 20.0.0}
     hasBin: true
     peerDependencies:
       '@opentelemetry/api': ^1.1.0
       '@playwright/test': ^1.41.2
       babel-plugin-react-compiler: '*'
-      react: 19.0.0-rc-1631855f-20241023
-      react-dom: 19.0.0-rc-1631855f-20241023
+      react: 19.0.0-rc-7ac8e612-20241113
+      react-dom: 19.0.0-rc-7ac8e612-20241113
       sass: ^1.3.0
     peerDependenciesMeta:
       '@opentelemetry/api':
@@ -937,15 +937,15 @@ packages:
   react-countup@6.5.3:
     resolution: {integrity: sha512-udnqVQitxC7QWADSPDOxVWULkLvKUWrDapn5i53HE4DPRVgs+Y5rr4bo25qEl8jSh+0l2cToJgGMx+clxPM3+w==}
     peerDependencies:
-      react: 19.0.0-rc-1631855f-20241023
+      react: 19.0.0-rc-7ac8e612-20241113
 
-  react-dom@19.0.0-rc-1631855f-20241023:
-    resolution: {integrity: sha512-9L3iceg5wGF9QZCjYKgPrar5mjPtPJ/R4yZa7w/E06utqJRO48EWhFrqs71tFWCeM4ehmitQCxkuDk7IW47xUA==}
+  react-dom@19.0.0-rc-7ac8e612-20241113:
+    resolution: {integrity: sha512-bbuSvwR89fSfpRPTSbG+m/Ur2eqHIKwSzhux57AkC+NVVnwARA7TdLLEWp6GmzXLtSbt3yqw4N0HcEoICvjgBg==}
     peerDependencies:
-      react: 19.0.0-rc-1631855f-20241023
+      react: 19.0.0-rc-7ac8e612-20241113
 
-  react@19.0.0-rc-1631855f-20241023:
-    resolution: {integrity: sha512-2kP1KI+/cI4WQ8taRm4572pnyY7FbdQqAJgtPNl/Uiiq+lIGZjloEeX5IcShWP/wBmlhm91/NCCeWs7rtm3jFw==}
+  react@19.0.0-rc-7ac8e612-20241113:
+    resolution: {integrity: sha512-/pDTAIK17lYvlY5SUC6Pb/aK/mqn+Biz38pl3lxJV9XjuDdm1EYC7w6pHsORKfiSLuudJtCiV4G8VyMleTbwNw==}
     engines: {node: '>=0.10.0'}
 
   read-cache@1.0.0:
@@ -977,8 +977,8 @@ packages:
   run-parallel@1.2.0:
     resolution: {integrity: sha512-5l4VyZR86LZ/lDxZTR6jqL8AFE2S0IFLMP26AbjsLVADxHdhB/c0GUsH+y39UfCi3dzz8OlQuPmnaJOMoDHQBA==}
 
-  scheduler@0.25.0-rc-1631855f-20241023:
-    resolution: {integrity: sha512-2s9EC24hDG8cuGleyCZRpmzt7aiPMjr54Z7dvE0iSTowzzy33pyySHY/CofKbRX1I/wQMKD0I8i/gPgcc3dUxA==}
+  scheduler@0.25.0-rc-7ac8e612-20241113:
+    resolution: {integrity: sha512-9YKvoO+2s+BIkQVn4rlpCfp88nM12R+W4j07OisQ7F7P4zL/gOH9ttqpA7dL4j7mPg+SPLFbNLmMvptIlQXuZA==}
 
   secure-json-parse@2.7.0:
     resolution: {integrity: sha512-6aU+Rwsezw7VR8/nyvKTx8QpWH9FrcYiXXlqC4z5d5XQBDRqtbfsRjnwGyqbi3gddNtWHuEk9OANUotL26qKUw==}
@@ -1042,7 +1042,7 @@ packages:
     peerDependencies:
       '@babel/core': '*'
       babel-plugin-macros: '*'
-      react: 19.0.0-rc-1631855f-20241023
+      react: 19.0.0-rc-7ac8e612-20241113
     peerDependenciesMeta:
       '@babel/core':
         optional: true
@@ -1065,7 +1065,7 @@ packages:
   swr@2.2.5:
     resolution: {integrity: sha512-QtxqyclFeAsxEUeZIYmsaQ0UjimSq1RZ9Un7I68/0ClKK/U3LoyQunwkQfJZr2fc22DfIXLNDc2wFyTEikCUpg==}
     peerDependencies:
-      react: 19.0.0-rc-1631855f-20241023
+      react: 19.0.0-rc-7ac8e612-20241113
 
   swrev@4.0.0:
     resolution: {integrity: sha512-LqVcOHSB4cPGgitD1riJ1Hh4vdmITOp+BkmfmXRh4hSF/t7EnS4iD+SOTmq7w5pPm/SiPeto4ADbKS6dHUDWFA==}
@@ -1108,7 +1108,7 @@ packages:
   use-sync-external-store@1.2.2:
     resolution: {integrity: sha512-PElTlVMwpblvbNqQ82d2n6RjStvdSoNe9FG28kNfz3WiXilJm4DdNkEzRhCZuIDwY8U08WVihhGR5iRqAwfDiw==}
     peerDependencies:
-      react: 19.0.0-rc-1631855f-20241023
+      react: 19.0.0-rc-7ac8e612-20241113
 
   util-deprecate@1.0.2:
     resolution: {integrity: sha512-EPD5q1uXyFxJpCrLnCc1nHnq3gOa6DZBocAIiI2TaSCA7VCJ1UJDMagCzIkXNsUYfD1daK//LTEQ8xiIbrHtcw==}
@@ -1162,13 +1162,13 @@ snapshots:
     dependencies:
       json-schema: 0.4.0
 
-  '@ai-sdk/react@0.0.67(react@19.0.0-rc-1631855f-20241023)(zod@3.23.8)':
+  '@ai-sdk/react@0.0.67(react@19.0.0-rc-7ac8e612-20241113)(zod@3.23.8)':
     dependencies:
       '@ai-sdk/provider-utils': 1.0.22(zod@3.23.8)
       '@ai-sdk/ui-utils': 0.0.49(zod@3.23.8)
-      swr: 2.2.5(react@19.0.0-rc-1631855f-20241023)
+      swr: 2.2.5(react@19.0.0-rc-7ac8e612-20241113)
     optionalDependencies:
-      react: 19.0.0-rc-1631855f-20241023
+      react: 19.0.0-rc-7ac8e612-20241113
       zod: 3.23.8
 
   '@ai-sdk/solid@0.0.53(zod@3.23.8)':
@@ -1357,9 +1357,9 @@ snapshots:
       '@tybys/wasm-util': 0.9.0
     optional: true
 
-  '@next/env@https://vercel-packages.vercel.app/next/commits/0ee487c232d496a7d30751ae1ca37492307cf86a/@next/env': {}
+  '@next/env@https://vercel-packages.vercel.app/next/commits/10832b638def0e167fc96b37ff4d7d4b88316183/@next/env': {}
 
-  '@next/swc-linux-x64-gnu@https://vercel-packages.vercel.app/next/commits/0ee487c232d496a7d30751ae1ca37492307cf86a/@next/swc-linux-x64-gnu': {}
+  '@next/swc-linux-x64-gnu@https://vercel-packages.vercel.app/next/commits/10832b638def0e167fc96b37ff4d7d4b88316183/@next/swc-linux-x64-gnu': {}
 
   '@node-rs/bcrypt-android-arm-eabi@1.10.5':
     optional: true
@@ -1531,11 +1531,11 @@ snapshots:
 
   acorn@8.14.0: {}
 
-  ai@3.4.22(react@19.0.0-rc-1631855f-20241023)(sswr@2.1.0(svelte@4.2.19))(svelte@4.2.19)(vue@3.5.12(typescript@5.6.3))(zod@3.23.8):
+  ai@3.4.22(react@19.0.0-rc-7ac8e612-20241113)(sswr@2.1.0(svelte@4.2.19))(svelte@4.2.19)(vue@3.5.12(typescript@5.6.3))(zod@3.23.8):
     dependencies:
       '@ai-sdk/provider': 0.0.26
       '@ai-sdk/provider-utils': 1.0.22(zod@3.23.8)
-      '@ai-sdk/react': 0.0.67(react@19.0.0-rc-1631855f-20241023)(zod@3.23.8)
+      '@ai-sdk/react': 0.0.67(react@19.0.0-rc-7ac8e612-20241113)(zod@3.23.8)
       '@ai-sdk/solid': 0.0.53(zod@3.23.8)
       '@ai-sdk/svelte': 0.0.55(svelte@4.2.19)(zod@3.23.8)
       '@ai-sdk/ui-utils': 0.0.49(zod@3.23.8)
@@ -1547,7 +1547,7 @@ snapshots:
       secure-json-parse: 2.7.0
       zod-to-json-schema: 3.23.5(zod@3.23.8)
     optionalDependencies:
-      react: 19.0.0-rc-1631855f-20241023
+      react: 19.0.0-rc-7ac8e612-20241113
       sswr: 2.1.0(svelte@4.2.19)
       svelte: 4.2.19
       zod: 3.23.8
@@ -1819,19 +1819,19 @@ snapshots:
 
   nanoid@3.3.7: {}
 
-  next@https://vercel-packages.vercel.app/next/commits/0ee487c232d496a7d30751ae1ca37492307cf86a/next(@opentelemetry/api@1.9.0)(react-dom@19.0.0-rc-1631855f-20241023(react@19.0.0-rc-1631855f-20241023))(react@19.0.0-rc-1631855f-20241023):
+  next@https://vercel-packages.vercel.app/next/commits/10832b638def0e167fc96b37ff4d7d4b88316183/next(@opentelemetry/api@1.9.0)(react-dom@19.0.0-rc-7ac8e612-20241113(react@19.0.0-rc-7ac8e612-20241113))(react@19.0.0-rc-7ac8e612-20241113):
     dependencies:
-      '@next/env': https://vercel-packages.vercel.app/next/commits/0ee487c232d496a7d30751ae1ca37492307cf86a/@next/env
+      '@next/env': https://vercel-packages.vercel.app/next/commits/10832b638def0e167fc96b37ff4d7d4b88316183/@next/env
       '@swc/counter': 0.1.3
       '@swc/helpers': 0.5.13
       busboy: 1.6.0
       caniuse-lite: 1.0.30001668
       postcss: 8.4.31
-      react: 19.0.0-rc-1631855f-20241023
-      react-dom: 19.0.0-rc-1631855f-20241023(react@19.0.0-rc-1631855f-20241023)
-      styled-jsx: 5.1.6(react@19.0.0-rc-1631855f-20241023)
+      react: 19.0.0-rc-7ac8e612-20241113
+      react-dom: 19.0.0-rc-7ac8e612-20241113(react@19.0.0-rc-7ac8e612-20241113)
+      styled-jsx: 5.1.6(react@19.0.0-rc-7ac8e612-20241113)
     optionalDependencies:
-      '@next/swc-linux-x64-gnu': https://vercel-packages.vercel.app/next/commits/0ee487c232d496a7d30751ae1ca37492307cf86a/@next/swc-linux-x64-gnu
+      '@next/swc-linux-x64-gnu': https://vercel-packages.vercel.app/next/commits/10832b638def0e167fc96b37ff4d7d4b88316183/@next/swc-linux-x64-gnu
       '@opentelemetry/api': 1.9.0
       sharp: 0.33.5
     transitivePeerDependencies:
@@ -1916,17 +1916,17 @@ snapshots:
 
   queue-microtask@1.2.3: {}
 
-  react-countup@6.5.3(react@19.0.0-rc-1631855f-20241023):
+  react-countup@6.5.3(react@19.0.0-rc-7ac8e612-20241113):
     dependencies:
       countup.js: 2.8.0
-      react: 19.0.0-rc-1631855f-20241023
+      react: 19.0.0-rc-7ac8e612-20241113
 
-  react-dom@19.0.0-rc-1631855f-20241023(react@19.0.0-rc-1631855f-20241023):
+  react-dom@19.0.0-rc-7ac8e612-20241113(react@19.0.0-rc-7ac8e612-20241113):
     dependencies:
-      react: 19.0.0-rc-1631855f-20241023
-      scheduler: 0.25.0-rc-1631855f-20241023
+      react: 19.0.0-rc-7ac8e612-20241113
+      scheduler: 0.25.0-rc-7ac8e612-20241113
 
-  react@19.0.0-rc-1631855f-20241023: {}
+  react@19.0.0-rc-7ac8e612-20241113: {}
 
   read-cache@1.0.0:
     dependencies:
@@ -1958,7 +1958,7 @@ snapshots:
     dependencies:
       queue-microtask: 1.2.3
 
-  scheduler@0.25.0-rc-1631855f-20241023: {}
+  scheduler@0.25.0-rc-7ac8e612-20241113: {}
 
   secure-json-parse@2.7.0: {}
 
@@ -2034,10 +2034,10 @@ snapshots:
     dependencies:
       ansi-regex: 6.1.0
 
-  styled-jsx@5.1.6(react@19.0.0-rc-1631855f-20241023):
+  styled-jsx@5.1.6(react@19.0.0-rc-7ac8e612-20241113):
     dependencies:
       client-only: 0.0.1
-      react: 19.0.0-rc-1631855f-20241023
+      react: 19.0.0-rc-7ac8e612-20241113
 
   sucrase@3.35.0:
     dependencies:
@@ -2068,11 +2068,11 @@ snapshots:
       magic-string: 0.30.12
       periscopic: 3.1.0
 
-  swr@2.2.5(react@19.0.0-rc-1631855f-20241023):
+  swr@2.2.5(react@19.0.0-rc-7ac8e612-20241113):
     dependencies:
       client-only: 0.0.1
-      react: 19.0.0-rc-1631855f-20241023
-      use-sync-external-store: 1.2.2(react@19.0.0-rc-1631855f-20241023)
+      react: 19.0.0-rc-7ac8e612-20241113
+      use-sync-external-store: 1.2.2(react@19.0.0-rc-7ac8e612-20241113)
 
   swrev@4.0.0: {}
 
@@ -2127,9 +2127,9 @@ snapshots:
 
   undici-types@6.19.8: {}
 
-  use-sync-external-store@1.2.2(react@19.0.0-rc-1631855f-20241023):
+  use-sync-external-store@1.2.2(react@19.0.0-rc-7ac8e612-20241113):
     dependencies:
-      react: 19.0.0-rc-1631855f-20241023
+      react: 19.0.0-rc-7ac8e612-20241113
 
   util-deprecate@1.0.2: {}
 
