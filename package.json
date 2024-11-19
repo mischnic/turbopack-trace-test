@@ -5,13 +5,13 @@
         "dev": "pnpm run --filter example-turbopack-build dev"
     },
     "dependencies": {
-        "@next/swc-linux-x64-gnu": "https://vercel-packages.vercel.app/next/commits/c66727f3b77de5ca4aea8d9afcc763526e834ca0/@next/swc-linux-x64-gnu"
+        "@next/swc-linux-x64-gnu": "https://vercel-packages.vercel.app/next/commits/12214b5ad9fcd74e4ff3a53dc8cd2ff6f047bead/@next/swc-linux-x64-gnu"
     },
     "pnpm": {
         "overrides": {
-            "next": "https://vercel-packages.vercel.app/next/commits/c66727f3b77de5ca4aea8d9afcc763526e834ca0/next",
-            "@next/mdx": "https://vercel-packages.vercel.app/next/commits/c66727f3b77de5ca4aea8d9afcc763526e834ca0/@next/mdx",
-            "@next/env": "https://vercel-packages.vercel.app/next/commits/c66727f3b77de5ca4aea8d9afcc763526e834ca0/@next/env",
+            "next": "https://vercel-packages.vercel.app/next/commits/12214b5ad9fcd74e4ff3a53dc8cd2ff6f047bead/next",
+            "@next/mdx": "https://vercel-packages.vercel.app/next/commits/12214b5ad9fcd74e4ff3a53dc8cd2ff6f047bead/@next/mdx",
+            "@next/env": "https://vercel-packages.vercel.app/next/commits/12214b5ad9fcd74e4ff3a53dc8cd2ff6f047bead/@next/env",
             "react": "19.0.0-rc-7ac8e612-20241113",
             "react-dom": "19.0.0-rc-7ac8e612-20241113"
         }
